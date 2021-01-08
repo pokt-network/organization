@@ -53,7 +53,47 @@ Output:
 - Improve node growth as result of easy to use quick setup
 - Profit? 
 
-Link to the project:
-https://github.com/orgs/pokt-network/projects/123
+
 
 Bandwith: 100%
+
+
+### Estimated Timeline
+1 month
+
+**Evidence and Justification for this timeline:**
+
+The need of updating all old blockchains to latest version, create and test new deployment manifest, including the new pocket core new version requires time, research and documentation
+
+
+**Timeline Consultants**
+
+[Name:Subject]
+ - Consultant 1:Lowell Abbott
+ - Consultant 2:QA Consultant
+### How to test functionality?
+[Detailed description on how to test the milestone]
+### Project Abstractions
+- Project 1
+https://github.com/orgs/pokt-network/projects/123
+
+### QA Planification
+The engineering team will check the documentation and approve if the docs are clear and correct
+
+### Community Buy In Evidence
+Luis, Nelson, Julio and me speak about this need before and was part of our goals as Infrastructure Team
+
+### Communication Plan
+Upon the completion of this proposal, we will be creating an annoucement in the #engineering channel and a medium post showing all the tutorials and documentation in order to run your pocket node
+
+### General Notes
+Doesn't apply
+
+### External Links
+Doesn't apply
+
+### Executive Signoff
+- [ ] APPROVED
+- [ ] DECLINED
+
+If `DECLINED`, please describe in detail why below:
