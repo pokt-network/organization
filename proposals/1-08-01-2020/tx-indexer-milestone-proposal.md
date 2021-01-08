@@ -45,3 +45,8 @@ This index key would allow us to:
 #### Caveats
 - The pending overhauling of events for RC-0.6.0 must be taken into account for the indexing. (As a note, the event itself is not neccesary for the first element of the index key, the tx memo or message would work as well)
 - The efficiency of the comparator underneath, given that this custom index keys are non standard iterating through them and ranging through them might have a slight decline. As long as this is still faster than loading all tx's on to memory & soritng them and building the page, then this implemantation should hold for production.
+
+### Estimated Completion time.
+3 Weeks
+
+Most of the tx indexer has been ported over for RC-0.5.2, however we still need to increase testing scenarios as well as upstream it to RC-0.6.0
