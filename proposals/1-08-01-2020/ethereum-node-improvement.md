@@ -38,6 +38,44 @@ Output:
 
 
 Link to the project:
+
+### Estimated Timeline
+1-2 weeks
+
+**Evidence and Justification for this timeline:**
+The estimation is based in the investigation and correct deployment of the ethereum node.
+
+This time doesn't include the sync time needed in order to have the ethereum node ready to receive connections
+
+**Timeline Consultants**
+
+- Consultant 1: Lowell Abbott
+
+### How to test functionality?
+Ethereum node should be up and running and should not delay in block height while in peak traffic
+
+### Project Abstractions
+- Project 1
 https://github.com/orgs/pokt-network/projects/125
 
-Bandwith: 30%
+### QA Planification
+
+[1] The ethereum node should be up and running
+[2] The ethereum node should not be behind in blockheight  while in peak traffic time of the day
+[3] The ethereum node should return long requests in time
+
+### Community Buy In Evidence
+[Links, quotes, evidence to support this proposal]
+### Communication Plan
+[How will this milestone be communicated? Describe in detail]
+
+### General Notes
+This proposal will incur in more infrastructure costs, because we will be running this additional ethereun node with the better proposed cli that will replace our existing one 
+
+### External Links
+[If applicable]
+### Executive Signoff
+- [ ] APPROVED
+- [ ] DECLINED
+
+If `DECLINED`, please describe in detail why below:
