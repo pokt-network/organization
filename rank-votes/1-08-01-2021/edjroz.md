@@ -1,16 +1,16 @@
-1. Handbook.
-2. RC-0.6.0.
-3. Network fix .
-4. Infrastructure Budget Optimization.
-5. Pocket JS amino to protobuff.
-6. Tendermint Visibility/ Improvements,
-7. Tx indexer.
-8. Unstake legacy validator nodes.
-9. qa certification framework documentation.
-19. Validator hard disk usage improvement.
-11. Stateful sets.
-12. Private Validator Key encryption.
-13. Deployment artifacts documentations.
-14. Gateway stability effort.
-15. Pocket JS refactor.
-16. Ethereum Node Improvement.
+1. [Handbook.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/handbook.md)
+2. [RC-0.6.0.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/RC-0.6.0.md)
+3. [Network fix.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/network-fix.md)
+4. [Infrastructure Budget Optimization.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/infrastructure-budget-optimization.md)
+5. [Pocket JS amino to protobuff.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/pocket-js-amino-to-protobuf.md)
+6. [Tendermint Visibility/ Improvements.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/tendermint-visibility-improvements.md)
+7. [Tx indexer.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/tx-indexer-milestone-proposal.md)
+8. [Unstake legacy validator nodes.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/unstake-legacy-validator-nodes.md)
+9. [qa certification framework documentation.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/qa-certification-framework-documentation.md)
+19. [Validator hard disk usage improvement.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/validator-hard-disk-Usage-Improvement.md)
+11. [Stateful sets.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/statefulsets.md)
+12. [Private Validator Key encryption.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/private-validator-key-encryption.md)
+13. [Deployment artifacts documentations.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/pocket-deployment-artifacts-documentation.md)
+14. [Gateway stability effort.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/gateway-stability-effort.md)
+15. [Pocket JS refactor.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/pocket-js-refactor.md)
+16. [Ethereum Node Improvement.](https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/ethereum-node-improvement.md)
