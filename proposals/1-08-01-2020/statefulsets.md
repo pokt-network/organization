@@ -1,12 +1,10 @@
 ---
-name: Milestone Rank Vote Proposal
-about: The Rank Vote Proposal Template is high level formal documentation of the Milestone Rank Vote Proposal PNI's Rank Vote Framework.
-The purpose of this document is to be written proof of a Rank Vote Proposal made by a PNI member for the official audit trail.  
-title: "Milestone Rank Vote Proposal: [StatefulSets]"
+name: StatefulSet
+about: Change PNI's nodes kubernetes controller from deployments to statefulsets
+title: "Milestone Rank Vote Proposal: StatefulSets"
 labels: Proposal
 assignees: 'Julio Jimenez'
 ---
-
 ### Proposal Title 
 StatefulSets
 ### Date(s)
