@@ -1,8 +1,8 @@
 ### Voter
 Wilson Garcia
 ### Rankings
-1.  [RC-0.6.0](../../proposals/1-08-01-2021/RC-0.6.0.md)
-2. 	[handbook](../../proposals/1-08-01-2021/handbook.md)
+1.	[handbook](../../proposals/1-08-01-2021/handbook.md)
+2.  [RC-0.6.0](../../proposals/1-08-01-2021/RC-0.6.0.md)
 3.  [pocket-js-amino-to-protobuf](../../proposals/1-08-01-2021/pocket-js-amino-to-protobuf.md)
 4.  [gateway-stability-effort](../../proposals/1-08-01-2021/gateway-stability-effort.md)
 5.	[network-fix](../../proposals/1-08-01-2021/network-fix.md)
