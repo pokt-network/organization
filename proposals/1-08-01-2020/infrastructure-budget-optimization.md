@@ -4,7 +4,8 @@ about: Since the release of 0.5.1 until the release of 0.5.2.9 and during the gr
  
 title: "Infrastructure budget optimization"
 labels: Infrastructure 
-assignees: ''
+assignees: 'Lowell Abbott'
+
 ---
 
 ### Proposal Title 
@@ -39,7 +40,43 @@ Output:
 - Allow us to resume the integrations with other blockchains
 
 
-Link to the project:
+### Estimated Timeline
+1-2 week
+
+**Evidence and Justification for this timeline:**
+We need to perform a full study of the resources that we can optimize, including the ones that we already know from the preliminary study and to develop.
+
+Also, we need to provide an internal proxy in order for the testnet validator access the blockchains in the prod cluster.
+
+**Timeline Consultants**
+
+
+ - Consultant 1: Lowell Abbott
+
+### How to test functionality?
+[Detailed description on how to test the milestone]
+
+### Project Abstractions
+- Project 1
 https://github.com/orgs/pokt-network/projects/128
 
-Bandwith: 20%
+### QA Planification
+A detailed comparison report about the expenses of the current seed node pool and the new one and another budget report of the nodepool related to the testnet cluster
+
+### Community Buy In Evidence
+Michael, Luis agreed in slack conversations
+
+### Communication Plan
+We will make an annoucement in the #infra channel, upon completion of this proposal
+
+### General Notes
+Doesn't apply
+
+### External Links
+Doesn't apply
+
+### Executive Signoff
+- [ ] APPROVED
+- [ ] DECLINED
+
+If `DECLINED`, please describe in detail why below:
