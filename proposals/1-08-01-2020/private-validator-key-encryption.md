@@ -30,3 +30,8 @@ Due to tendermint decisions we leave an unencrypted `priv_val_key.json` on the d
 We have already differed from tendemrint in many philosophies of development we should likely make sure this private key is encrypted in the datadir provide a passphrase when running the node that should allow the node to unencrypt it in memory.
 
 We should likely follow on Ethereum's [keystore](https://goethereumbook.org/en/keystore/) example as a standard on how to deal with vulnearable files.
+
+### Estimation
+3-5 weeks
+
+This is due to a required break down of how tendermint accessess the file, having to provide a secure manner in which to access the encrypted file, we also need to apply this changes onto pocket core making it an effort on 2 deep layers of our stack.
