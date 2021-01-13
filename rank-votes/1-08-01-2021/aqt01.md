@@ -1,0 +1,19 @@
+### Voter
+Lowell Abbott
+
+### Rankings
+- [RC-0.6.0](../../proposals/1-08-01-2021/RC-0.6.0.md)
+- [unstake-legacy-validator-nodes](../../proposals/1-08-01-2021/unstake-legacy-validator-nodes.md)
+- [gateway-stability-effort](../../proposals/1-08-01-2021/gateway-stability-effort.md)
+- [network-fix](../../proposals/1-08-01-2021/network-fix.md)
+- [infrastructure-budget-optimization](../../proposals/1-08-01-2021/infrastructure-budget-optimization.md)
+- [qa-certification-framework-documentation.md](../../proposals/1-08-01-2021/qa-certification-framework-documentation.md)
+- [pocket-deployment-artifacts-documentation.md](../../proposals/1-08-01-2021/pocket-deployment-artifacts-documentation.md)
+- [validator-hard-disk-Usage-Improvement.md](../../proposals/1-08-01-2021/validator-hard-disk-Usage-Improvement.md)
+- [tx-indexer-milestone-proposal.md](../../proposals/1-08-01-2021/tx-indexer-milestone-proposal.md)
+- [pocket-js-refactor.md](../../proposals/1-08-01-2021/pocket-js-refactor.md) 
+- [pocket-js-amino-to-protobuf.md](../../proposals/1-08-01-2021/pocket-js-amino-to-protobuf.md) 
+- [statefulsets.md](../../proposals/1-08-01-2021/statefulsets.md)
+- [pocket-js-amino-to-protobuf.md](../../proposals/1-08-01-2021/pocket-js-amino-to-protobuf.md) 
+- [handbook](../../proposals/1-08-01-2021/handbook.md)
+- [ethereum-node-improvement](../../proposals/1-08-01-2021/ethereum-node-improvement.md)
