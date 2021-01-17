@@ -28,12 +28,13 @@ The tx indexer should be able to understand the indexes it's going through and b
 I propose we keep this format in order to keep compatibility with indexing (following format will be broken into a regular expression)
 
 ```regex
-([a-z 0-9]+)\/([0-9]+)\/([0-9]+)[\/]?
+([a-z .]+)\/([a-z 0-9]+)\/([0-9]+)\/([0-9]+)[\/]?
 ```
 this makes sure we get any format like this
 ```
-<event>/<address>/<height>/<index>
-<event>/<height>/<height>/<index>
+send.action/<address>/<height>/<index>
+claim.action/<address>/<height>/<index>
+tx.block/<height>/<height>/<index>
 ```
 
 This index key would allow us to:
