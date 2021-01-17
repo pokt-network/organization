@@ -75,8 +75,6 @@ If is `NOT THE SAME` as the Original Proposal Estimated Timeline, please describ
 #### Projects  
 **List**  
 - Functional Testing                  // functionality testing / regression test *ED*
-- Integration Testing Refactoring     // outer layer of go tests will require refactoring to use goleveldb rather than in mem *ED*
-- Backwards Compatibility             // prior protocol version compatibility *ED*
 - Benchmark Testing                   //  of improvement *ANDREW*
 - Custom goleveldb comparator         // Documentation & code completeness *ED*
   
