@@ -1,27 +1,28 @@
-### Project Title [TITLE OF THE PROJECT]  
+### Project Title Benchmark Testing
 ### Leader  
-[NAME: TITLE]  
+[NAME: Andrew Nguyen]  
 ### Date(s)  
-01/01/1970  
+01/14/ 2021 
 ### Category  
 - [ ] Infrastructure  
-- [ ] Protocol/Blockchain Dev  
+- [x] Protocol/Blockchain Dev  
 - [ ] App Solutions  
 - [ ] Quality Assurance  
 ### Contract  
 - [ ] This process follows the Project Framework as discussed in the Pocket Network Corporation's `Organization Handbook`  
-- [ ] This process `DOES NOT` follow the Project Framework as discussed in the Pocket Network Corporation's `Organization Handbook`  
+- [x] This process `DOES NOT` follow the Project Framework as discussed in the Pocket Network Corporation's `Organization Handbook`  
   
 If `DOES NOT` follow the Handbook's Project Framework, please describe in detail why below:  
+Not defined yet
 ### Project Purpose
-[Detailed Description Of Project] 
+Perform benchmark testing to our custm tx indexer, this would provide metrics and allow us to understand performance of our app.
 ### Key Goals Of Project
-- Goal 1
-- Goal 2 
+- Benchmark Custom tx Index
+- Benchmark Default Tx Index
 #### Milestone
-[Link to `Parent` Milestone Documentation]  
+https://github.com/pokt-network/organization/tree/main/milestones/1-08-01-2021/tx-indexer
 #### Estimated Timeline  
-[X Units of Time]  
+1-2 Weeks
   
 - [ ] Timeline `DOES` correspond with the Milestone Estimated Timeline  
 - [ ] Timeline is `DOES NOT` correspond with the Milestone Estimated Timeline  
@@ -29,7 +30,7 @@ If `DOES NOT` follow the Handbook's Project Framework, please describe in detail
 If timeline is `DOES NOT` correspond with the Milestone Estimated Timeline, please describe in detail the reasons below:  
 [Detailed Description of Timeline Change]  
 #### How to test functionality?  
-[Detailed description on how to test the project]  
+Not applicable this project is a benchmark.
 #### Issues  
 **List**  
   

@@ -1,41 +1,46 @@
-### Project Title [TITLE OF THE PROJECT]  
+### Project Title Custom Comparator
 ### Leader  
-[NAME: TITLE]  
+[NAME: Eduardo Diaz]  
 ### Date(s)  
-01/01/1970  
+01/14/ 2021 
 ### Category  
 - [ ] Infrastructure  
-- [ ] Protocol/Blockchain Dev  
+- [x] Protocol/Blockchain Dev  
 - [ ] App Solutions  
 - [ ] Quality Assurance  
 ### Contract  
 - [ ] This process follows the Project Framework as discussed in the Pocket Network Corporation's `Organization Handbook`  
-- [ ] This process `DOES NOT` follow the Project Framework as discussed in the Pocket Network Corporation's `Organization Handbook`  
+- [x] This process `DOES NOT` follow the Project Framework as discussed in the Pocket Network Corporation's `Organization Handbook`  
   
 If `DOES NOT` follow the Handbook's Project Framework, please describe in detail why below:  
+Not defined yet
 ### Project Purpose
-[Detailed Description Of Project] 
+Use a custom ocmparator that can break down index keys and compare height-index
 ### Key Goals Of Project
-- Goal 1
-- Goal 2 
+- Implement a custom comparator GolevelDB
+- Allow for a lower memory footprint 
+
 #### Milestone
-[Link to `Parent` Milestone Documentation]  
+https://github.com/pokt-network/organization/tree/main/milestones/1-08-01-2021/tx-indexer
 #### Estimated Timeline  
-[X Units of Time]  
+2 weeks  
   
 - [ ] Timeline `DOES` correspond with the Milestone Estimated Timeline  
-- [ ] Timeline is `DOES NOT` correspond with the Milestone Estimated Timeline  
+- [x] Timeline is `DOES NOT` correspond with the Milestone Estimated Timeline  
   
 If timeline is `DOES NOT` correspond with the Milestone Estimated Timeline, please describe in detail the reasons below:  
-[Detailed Description of Timeline Change]  
+The milesone template does not provide  timelines for projects.
+
 #### How to test functionality?  
-[Detailed description on how to test the project]  
+Protocol should work seamless in order to testthe following must be made:
+- Resync must be available
+- must be able to query account txs
+- must be able to query block txs 
 #### Issues  
 **List**  
   
-- Issue 1  
-- Issue 2  
-- Issue 3  
+- Implement custom Comparator  
+- Refactor Integration testing layer to use goleveldb instead tm-db memdb
   
 ##### [ISSUE 1 TITLE]  
 **Summary**  
