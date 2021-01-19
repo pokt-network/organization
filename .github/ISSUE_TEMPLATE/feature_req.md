@@ -12,13 +12,13 @@ manner.
 ### Date(s)
 01/01/1970
 ## Feature Proposal
-### Summary of Feature Proposal
+### Summary
 [Summarize the feature proposal]
-### Justification of the Feature
+### Rationale
 [Why is this feature desired?
 What problems may be addressed by introducing this feature?
 What benefits are gained by including this feature?]
-### Criticisms of the Feature
+### Criticisms
 [Are there any disadvantages of including this feature?]
 ### Community Buy In Evidence
 [Links, quotes, evidence to support this proposal]

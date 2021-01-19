@@ -48,7 +48,7 @@ manner.
 
 **Logs**
 
-[paste a small part showing an error (< 10 lines) or external link containing more of the log file]
+[paste a small part showing an error (< 50 lines) or external link containing more of the log file]
 
 **Anything other details?**
 

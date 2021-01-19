@@ -166,5 +166,14 @@ Explain in detail why the chosen option superior to this alternative:
 
 [If Applicable]
 
+## Results
+### Test Execution Data
+[If Applicable: Any evidence, generated data, supporting details]
+### Cases Tested
+- Test case 1 
+ - Status [PASSED/SKIPPED/FAILED]
+- Test case 2
+ - Status [PASSED/SKIPPED/FAILED]
+
 ### General Notes  
 [Any notes]  
