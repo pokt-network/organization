@@ -1,35 +1,41 @@
-### Project Title [TITLE OF THE PROJECT]  
+### Project Title Functional Testing  
 ### Leader  
-[NAME: TITLE]  
+[Emanuel: Support Engineering Specialist]  
 ### Date(s)  
-01/01/1970  
+3/02/2021  
 ### Category  
 - [ ] Infrastructure  
-- [ ] Protocol/Blockchain Dev  
+- [X] Protocol/Blockchain Dev  
 - [ ] App Solutions  
 - [ ] Quality Assurance  
 ### Contract  
-- [ ] This process follows the Project Framework as discussed in the Pocket Network Corporation's `Organization Handbook`  
+- [X] This process follows the Project Framework as discussed in the Pocket Network Corporation's `Organization Handbook`  
 - [ ] This process `DOES NOT` follow the Project Framework as discussed in the Pocket Network Corporation's `Organization Handbook`  
   
 If `DOES NOT` follow the Handbook's Project Framework, please describe in detail why below:  
+
 ### Project Purpose
-[Detailed Description Of Project] 
+Create a functional testing suite for Pocket Core that can be used in the future for regression testing of all user facing features and functionalities of the software.
 ### Key Goals Of Project
-- Goal 1
-- Goal 2 
+1. Define and document the full scope of the functional tests for Pocket Core.
+2. Provide a comprehensive suite of functional tests of the current functionality.
+3. Upgrade the functional tests to cover RC-0.6.0 newly added functionalities and scenarios.
+4. Provide an automation framework for the functional tests.
 #### Milestone
-[Link to `Parent` Milestone Documentation]  
+(https://github.com/pokt-network/organization/blob/main/milestones/1-08-01-2021/6.0/milestone.md)[https://github.com/pokt-network/organization/blob/main/milestones/1-08-01-2021/6.0/milestone.md]  
 #### Estimated Timeline  
-[X Units of Time]  
+10 days  
   
-- [ ] Timeline `DOES` correspond with the Milestone Estimated Timeline  
+- [X] Timeline `DOES` correspond with the Milestone Estimated Timeline  
 - [ ] Timeline is `DOES NOT` correspond with the Milestone Estimated Timeline  
   
 If timeline is `DOES NOT` correspond with the Milestone Estimated Timeline, please describe in detail the reasons below:  
 [Detailed Description of Timeline Change]  
+
 #### How to test functionality?  
-[Detailed description on how to test the project]  
+- Functional tests are going to be peer reviewed and approved.
+- Functional tests will be run, either manually, automatically or both.
+- Functional tests will be documented and published to the Pocket Core repo.
 #### Issues  
 **List**  
   
@@ -76,12 +82,7 @@ If timeline is `DOES NOT` correspond with the Milestone Estimated Timeline, plea
 [LINK TO CHANGELOG TEMPLATE]  
   
 #### Contributors List  
-- Contributor 1  
-    - Contribution Details
-    - Link to Documentation
-- Contributor 2  
-      - Contribution Details
-      - Link to Documentation
+- Luis
   
 #### Auxillary Documentation   
 [Links if applicable]  
@@ -89,13 +90,13 @@ If timeline is `DOES NOT` correspond with the Milestone Estimated Timeline, plea
 #### QA Documentation  
 **QA Strategy Document**
 
-[Outlines The Original Strategy Issue Level Integration Assurance]
+[https://github.com/pokt-network/organization/blob/main/milestones/1-08-01-2021/6.0/projects/func_test/qa_strategy.md](https://github.com/pokt-network/organization/blob/main/milestones/1-08-01-2021/6.0/projects/func_test/qa_strategy.md)
 
 **QA Execution Document**
 
-[Outlines Issue Level Integration Assurance]
+[https://github.com/pokt-network/organization/blob/main/milestones/1-08-01-2021/6.0/projects/func_test/qa.md](https://github.com/pokt-network/organization/blob/main/milestones/1-08-01-2021/6.0/projects/func_test/qa.md)
 
-- [ ] The QA execution `DOES` follow the original QA Strategy document
+- [X] The QA execution `DOES` follow the original QA Strategy document
 - [ ] The QA execution `DOES NOT` follow the original QA Strategy document
 
 If QA execution `DOES NOT` follow the original QA Strategy document, please explain why in fine detail:
@@ -104,14 +105,14 @@ If QA execution `DOES NOT` follow the original QA Strategy document, please expl
 
 **QA Contract**
 
-- [ ] The QA completed for this project `DOES` ensure delivery of the project purpose
+- [X] The QA completed for this project `DOES` ensure delivery of the project purpose
 
 **Justification Statement**
 
 [Provide a detailed statement of satisfaction of the QA Organization Level QA requirements]
   
 #### Delivery Date  
-01/01/01/01/1970
+13/02/2021
 ### General Notes    
 [Any notes]  
 ### Editorial Notes  

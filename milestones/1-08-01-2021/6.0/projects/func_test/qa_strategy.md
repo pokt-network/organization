@@ -1,22 +1,21 @@
 ### QA Strategy For [TITLE OF THE TASK/ISSUE/PROJECT/MILESTONE]  
 ### Leader  
-[NAME: TITLE]  
+[Emanuel: Support Engineering Specialist]   
 ### Date(s)  
-01/01/1970  
+3/02/2021 
 ### Participants
-- [NAME:TITLE]
-- [NAME:TITLE]
-- [NAME:TITLE]
+- [Emanuel:Support Engineering Specialist]
+- [Luis:CEO]
 ## Survey
 ### Category
 - [ ] Infrastructure  
-- [ ] Protocol/Blockchain Dev  
+- [X] Protocol/Blockchain Dev  
 - [ ] App Solutions  
 
 ### Implementation (Check All That Apply)
 - [ ] Unit Tests
 - [ ] Integration Tests
-- [ ] Functional Tests
+- [X] Functional Tests
 - [ ] Behavior Tests
 - [ ] Load Tests
 - [ ] Stress Tests
@@ -32,58 +31,24 @@
 
 **What is the strategy?**
 
-[Describe in detail the QA Strategy]
+Given a full Functional Test Suite ensure that all tests are run and they pass.
 
 **Why this strategy?**
 
-[Describe in detail why this strategy was chosen]
+This is a QA project, the purpose of the project is to create the Functional Test suite that will be run in this QA execution.
 
 **QA Contract**
 
-- [ ] The QA strategy `WILL` ensure delivery of the intended purpose
+- [X] The QA strategy `WILL` ensure delivery of the intended purpose
 
 **Justification Statement**
 
 [Provide a detailed statement of satisfaction of the QA Organization Level QA requirements]
 
 ### Alternatives Considered
-**Alternative Approach 1**
-
-[Description of Alternative Approach 1]
-
-**Pros**
-- X
-- Y
-- Z
-
-**Cons**
-- A
-- B
-- C
-
-Explain in detail why the chosen option superior to this alternative:
-
-[Detailed description of why the chosen option is the better QA strategy over this alternative]
-
-**Alternative Approach 2**
-
-[Description of Alternative Approach 2]
-
-**Pros**
-- X
-- Y
-- Z
-
-**Cons**
-- A
-- B
-- C
-
-Explain in detail why the chosen option superior to this alternative:
-
-[Detailed description of why the chosen option is the better QA strategy over this alternative]
+N/A as the project is to build the Functional Test suite itself.
 ### Participant Quorum
-- [ ] `UNANIMOUS`
+- [X] `UNANIMOUS`
 - [ ] `SPLIT`
 
 If decision was `SPLIT`, please provide those who were for and against the strategy:
