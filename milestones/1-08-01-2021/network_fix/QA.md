@@ -51,7 +51,7 @@ If the QA methodology diverged from the original QA strategy, please explain in 
 
 **Justification Statement**
 
-After the `gateway-proxy` was uptaded, I ran check using the a pod in the `mainnet` namespace. The results were satisfactory after the amount of inbound peers went from 0 to 50, which is the maximun allowed.
+After the `gateway-proxy` service was uptaded with the missing ports, checks were run using a pod in the `mainnet` namespace. The results were satisfactory after the amount of inbound peers went from 0 to 50, which is the maximun allowed and PNI nodes were present in the peers list.
 
 ### Alternatives Considered
 **Alternative Approach 1**

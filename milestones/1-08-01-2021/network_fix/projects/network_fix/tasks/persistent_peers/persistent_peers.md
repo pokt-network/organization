@@ -56,7 +56,7 @@ If QA execution `DOES NOT` follow the original QA Strategy document, please expl
 
 **Justification Statement**
 
-After the `gateway-proxy` was uptaded, I ran check using the a pod in the `mainnet` namespace. The results were satisfactory after other PNI's nodes were found in the list of peers of the nodes tested.
+After the `gateway-proxy` service was uptaded with the missing ports, checks were run using a pod in the `mainnet` namespace. The results were satisfactory after the amount of inbound peers went from 0 to 50, which is the maximun allowed.
   
 #### Delivery Date  
 02/8/2021

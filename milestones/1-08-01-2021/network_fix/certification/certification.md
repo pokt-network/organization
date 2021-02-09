@@ -28,7 +28,7 @@ Julio Jimenez: Specialist
 
 **Justification Statement**
 
-After the `gateway-proxy` was uptaded, a check was run using a pod in the `mainnet` namespace. The results were satisfactory after the amount of inbound peers went from 0 to 50, which is the maximun allowed and PNI's nodes were in the list of peers of the tested nodes.
+After the `gateway-proxy` service was uptaded with the missing ports, checks were run using a pod in the `mainnet` namespace. The results were satisfactory after the amount of inbound peers went from 0 to 50, which is the maximun allowed and PNI nodes were present in the peers list.
 
 ### Tools Required
 **Tool 1**

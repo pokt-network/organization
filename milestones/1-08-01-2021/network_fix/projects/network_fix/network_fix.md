@@ -38,8 +38,7 @@ Verify that each node can peer with inbound/external peers. Use `/net_info` endp
 ##### Set PNI's Nodes as Persistent Peers to all Nodes in Cluster  
 **Summary**  
 
-This project's goal is to allow inbound peers to connect to PNI's nodes. The issue is a networking one, especifically at the edge.
-Also, in order to make sure PNI's nodes will peer with each other, we set every node in the cluster as persistent peer to each other. Since we are only allowing a limited amount of peers to connect to PNI's nodes, sometimes those spots feel up quickly and if another PNI's node fails and needs to peer and sync, it won't be able to sync. 
+In order to make sure PNI's nodes will peer with each other, we set every node in the cluster as persistent peer to each other. Since we are only allowing a limited amount of peers to connect to PNI's nodes, sometimes those spots feel up quickly and if another PNI's node fails and needs to peer and sync, it won't be able to sync. 
   
 **Leader**  
   
@@ -55,7 +54,7 @@ Julio Jimenez: Specialist
 ##### Open Tendermint Ports gateway-proxy Kubernetes Service   
 **Summary**  
   
-In order to make sure PNI's nodes will peer with each other, we set every node in the cluster as persistent peer to each other. Since we are only allowing a limited amount of peers to connect to PNI's nodes, sometimes those spots feel up quickly and if another PNI's node fails and needs to peer and sync, it won't be able to sync. 
+This issue's goal is to allow inbound peers to connect to PNI's nodes. The issue is a networking one, especifically at the edge. Gloo's gateay-proxy service was not being updated when a new node was deployed to the cluster. This tasks will update this service with all missing ports from the new nodes. New nodes include beta[1-5], validators[11-20] amd seeds[3-10].
   
 **Leader**  
   
@@ -87,7 +86,7 @@ If QA execution `DOES NOT` follow the original QA Strategy document, please expl
 
 **Justification Statement**
 
-After the `gateway-proxy` was uptaded, I ran check using the a pod in the `mainnet` namespace. The results were satisfactory after the amount of inbound peers went from 0 to 50, which is the maximun allowed.
+After the `gateway-proxy` service was uptaded with the missing ports, checks were run using a pod in the `mainnet` namespace. The results were satisfactory after the amount of inbound peers went from 0 to 50, which is the maximun allowed and PNI nodes were present in the peers list.
   
 #### Delivery Date  
 02/8/2021

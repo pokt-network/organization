@@ -53,7 +53,7 @@ for i in $(seq 1 5); do  echo beta$i; curl -s pocket-core-beta$i:26657/net_info 
 ```
 **Why this strategy?**
 
-I find it to be easier than looking through the logs for this information.
+It is easier and quicker to issue these commands rather than looking through the logs in each node for this information.
 
 **QA Contract**
 
@@ -61,7 +61,7 @@ I find it to be easier than looking through the logs for this information.
 
 **Justification Statement**
 
-After the `gateway-proxy` was uptaded, I ran check using the a pod in the `mainnet` namespace. The results were satisfactory after the amount of inbound peers went from 0 to 50, which is the maximun allowed.
+After the `gateway-proxy` service was uptaded with the missing ports, checks were run using a pod in the `mainnet` namespace. The results were satisfactory after the amount of inbound peers went from 0 to 50, which is the maximun allowed and PNI nodes were present in the peers list.
 
 ### Alternatives Considered
 **Alternative Approach 1**

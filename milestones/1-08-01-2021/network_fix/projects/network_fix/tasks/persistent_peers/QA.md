@@ -50,7 +50,7 @@ If the QA methodology diverged from the original QA strategy, please explain in 
 
 **Justification Statement**
 
-By using this approach the tester will be able to confirm that other PNI's nodes are peering with the node being tested.
+After the `gateway-proxy` was uptaded, I ran check using the a pod in the `mainnet` namespace. The results were satisfactory after other PNI nodes were found in the list of peers of the tested nodes.
 
 ### Tools Required
 **Tool 1**

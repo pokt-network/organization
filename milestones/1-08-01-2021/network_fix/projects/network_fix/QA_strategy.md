@@ -30,7 +30,19 @@ Julio Jimenez: Specialist
 
 **What is the strategy?**
 
-Find in the `/net_info` endpoint a list of `*.pokt.network` peers. This can be done by issuing the following command inside a container running in the `mainnet` namespace of the `pocket-system-mainnet` Kuberentes cluster in GCP and with curl previously installed: 
+Find in the `/net_info` endpoint a list of `*.pokt.network` peers and find `is_outbound: false` peers. This can be done by issuing the following command inside a container running in the `mainnet` namespace of the `pocket-system-mainnet` Kuberentes cluster in GCP and with curl previously installed: 
+
+Find PNI peers:
+```
+Validators
+for i in $(seq 1 20); do  echo node$i; curl -s pocket-core-$i:26657/net_info | grep pokt.network:; done 
+Seeds
+for i in $(seq 1 10); do  echo seed$i; curl -s pocket-core-seed$i:26657/net_info | grep pokt.network:; done
+Betas
+for i in $(seq 1 5); do  echo beta$i; curl -s pocket-core-beta$i:26657/net_info | grep pokt.network:; done
+```
+
+Check if there are any inbound peers:
 ```
 Validators
 for i in $(seq 1 20); do  echo node$i; curl -s pocket-core-$i:26657/net_info | grep 'is_outbound": false'; done 
@@ -49,7 +61,7 @@ I find it to be easier than looking through the logs for this information.
 
 **Justification Statement**
 
-After the `gateway-proxy` was uptaded, I ran check using the a pod in the `mainnet` namespace. The results were satisfactory after the amount of inbound peers went from 0 to 50, which is the maximun allowed.
+After the `gateway-proxy` service was uptaded with the missing ports, checks were run using a pod in the `mainnet` namespace. The results were satisfactory after the amount of inbound peers went from 0 to 50, which is the maximun allowed and PNI nodes were present in the peers list.
 
 ### Alternatives Considered
 **Alternative Approach 1**
