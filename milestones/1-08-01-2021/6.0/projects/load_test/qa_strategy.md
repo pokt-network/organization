@@ -1,16 +1,15 @@
-### QA Strategy For [TITLE OF THE TASK/ISSUE/PROJECT/MILESTONE]  
+### QA Strategy For Load Testing 6.0
 ### Leader  
-[NAME: TITLE]  
+[Luis: CEO]  
 ### Date(s)  
-01/01/1970  
+03/02/2021  
 ### Participants
-- [NAME:TITLE]
-- [NAME:TITLE]
-- [NAME:TITLE]
+- [Luis:CEO]
+- [Emanuel:Support Engineering Specialist]
 ## Survey
 ### Category
 - [ ] Infrastructure  
-- [ ] Protocol/Blockchain Dev  
+- [X] Protocol/Blockchain Dev  
 - [ ] App Solutions  
 
 ### Implementation (Check All That Apply)
@@ -18,7 +17,7 @@
 - [ ] Integration Tests
 - [ ] Functional Tests
 - [ ] Behavior Tests
-- [ ] Load Tests
+- [X] Load Tests
 - [ ] Stress Tests
 - [ ] Simulations
 - [ ] Certification
@@ -32,15 +31,15 @@
 
 **What is the strategy?**
 
-[Describe in detail the QA Strategy]
+The project itself is to produce evidence via Load Testing the software.
 
 **Why this strategy?**
 
-[Describe in detail why this strategy was chosen]
+Because it's a QA project.
 
 **QA Contract**
 
-- [ ] The QA strategy `WILL` ensure delivery of the intended purpose
+- [X] The QA strategy `WILL` ensure delivery of the intended purpose
 
 **Justification Statement**
 
@@ -83,7 +82,7 @@ Explain in detail why the chosen option superior to this alternative:
 
 [Detailed description of why the chosen option is the better QA strategy over this alternative]
 ### Participant Quorum
-- [ ] `UNANIMOUS`
+- [X] `UNANIMOUS`
 - [ ] `SPLIT`
 
 If decision was `SPLIT`, please provide those who were for and against the strategy:
@@ -93,27 +92,27 @@ If decision was `SPLIT`, please provide those who were for and against the strat
 ### Tools Required
 **Tool 1**
 
-[Official Name of the tool]
+Pocket Network Simulator (PNS)
 
 **Link**
 
-[External link to the tool]
+N/A
 
 **Planned Usage**
 
-[Describe how this tool is used in the QA strategy]
+This tool will be used to automatically provision all of the infrastructure to run the simulated Pocket Network.
 
-**Tool 1**
+**Tool 2**
 
-[Official Name of the tool]
+Pocket Relay Load Testing System
 
 **Link**
 
-[External link to the tool]
+https://github.com/pokt-network/prlts
 
 **Planned Usage**
 
-[Describe how this tool is used in the QA strategy]
+It will be used in conjunction of PNS to simulate applications sending relays to the simulated Pocket Network.
 
 ### Research And Investigation
 **Subject 1**

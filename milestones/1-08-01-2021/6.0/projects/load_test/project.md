@@ -1,35 +1,38 @@
-### Project Title [TITLE OF THE PROJECT]  
+### Project Title Load Testing 6.0 
 ### Leader  
-[NAME: TITLE]  
+[Luis: CEO]  
 ### Date(s)  
-01/01/1970  
+03/02/2021  
 ### Category  
 - [ ] Infrastructure  
-- [ ] Protocol/Blockchain Dev  
+- [X] Protocol/Blockchain Dev  
 - [ ] App Solutions  
 - [ ] Quality Assurance  
 ### Contract  
-- [ ] This process follows the Project Framework as discussed in the Pocket Network Corporation's `Organization Handbook`  
+- [X] This process follows the Project Framework as discussed in the Pocket Network Corporation's `Organization Handbook`  
 - [ ] This process `DOES NOT` follow the Project Framework as discussed in the Pocket Network Corporation's `Organization Handbook`  
   
 If `DOES NOT` follow the Handbook's Project Framework, please describe in detail why below:  
 ### Project Purpose
-[Detailed Description Of Project] 
+The purpose of the project is to generate evidence as to the Load capacity of the Pocket Core software, both in total nodes in the network, as well as relay capacity.
 ### Key Goals Of Project
-- Goal 1
-- Goal 2 
+- Document evidence of the Pocket Core 0.6.0 version running in a network with the following characteristics:
+    - 5,000 Nodes in the network.
+    - Network must be processing upwards of 4,166,666 Relays per session (1 hr sessions).
+    - The test must be ran for at least 5 hours (1 session and 1 proof period).
+- Document the PNS software and it's usage.
 #### Milestone
-[Link to `Parent` Milestone Documentation]  
+(https://github.com/pokt-network/organization/blob/main/milestones/1-08-01-2021/6.0/milestone.md)[https://github.com/pokt-network/organization/blob/main/milestones/1-08-01-2021/6.0/milestone.md]  
 #### Estimated Timeline  
-[X Units of Time]  
+10 days.  
   
-- [ ] Timeline `DOES` correspond with the Milestone Estimated Timeline  
+- [X] Timeline `DOES` correspond with the Milestone Estimated Timeline  
 - [ ] Timeline is `DOES NOT` correspond with the Milestone Estimated Timeline  
   
 If timeline is `DOES NOT` correspond with the Milestone Estimated Timeline, please describe in detail the reasons below:  
 [Detailed Description of Timeline Change]  
 #### How to test functionality?  
-[Detailed description on how to test the project]  
+The funcionality is to produce evidence of a Load Test run, so no further QA is necessary as the project itself is a QA run.
 #### Issues  
 **List**  
   
@@ -76,12 +79,7 @@ If timeline is `DOES NOT` correspond with the Milestone Estimated Timeline, plea
 [LINK TO CHANGELOG TEMPLATE]  
   
 #### Contributors List  
-- Contributor 1  
-    - Contribution Details
-    - Link to Documentation
-- Contributor 2  
-      - Contribution Details
-      - Link to Documentation
+- Emanuel
   
 #### Auxillary Documentation   
 [Links if applicable]  
@@ -95,7 +93,7 @@ If timeline is `DOES NOT` correspond with the Milestone Estimated Timeline, plea
 
 [Outlines Issue Level Integration Assurance]
 
-- [ ] The QA execution `DOES` follow the original QA Strategy document
+- [X] The QA execution `DOES` follow the original QA Strategy document
 - [ ] The QA execution `DOES NOT` follow the original QA Strategy document
 
 If QA execution `DOES NOT` follow the original QA Strategy document, please explain why in fine detail:
@@ -104,14 +102,14 @@ If QA execution `DOES NOT` follow the original QA Strategy document, please expl
 
 **QA Contract**
 
-- [ ] The QA completed for this project `DOES` ensure delivery of the project purpose
+- [X] The QA completed for this project `DOES` ensure delivery of the project purpose
 
 **Justification Statement**
 
 [Provide a detailed statement of satisfaction of the QA Organization Level QA requirements]
   
 #### Delivery Date  
-01/01/01/01/1970
+13/02/2021
 ### General Notes    
 [Any notes]  
 ### Editorial Notes  
