@@ -25,9 +25,11 @@ Monitoring and security need to improve in the cluster facing towards the future
 Implement Falco and Cilium into the GKE cluster of nodes to improve monitoring and security inside the pods.
 
 ### Estimated completion time
-4 weeks
+5-6 weeks
 
 ### Tasks
 - Install Cilium and Falco pods in the testnet GKE.
 - Do QA and develop rules and alarms for cluster.
 - Migrate configuration to mainnet GKE.
+- Create documentation for installing same configuration on similar setups of nodes running in GKE.
+- Test deployment on separate cluster using previously designed documentation.
