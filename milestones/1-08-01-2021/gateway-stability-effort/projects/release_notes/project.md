@@ -20,6 +20,10 @@ The purpose of the project is to generate evidence as to the Load capacity of th
     - 5,000 Nodes in the network.
     - Network must be processing upwards of 4,166,666 Relays per session (1 hr sessions).
     - The test must be ran for at least 5 hours (1 session and 1 proof period).
+- Document evidence of the Pocket Core 0.6.0 version running in a network with the following characteristics:
+    - 10,000 Nodes in the network.
+    - Network must be processing upwards of 4,166,666 Relays per session (1 hr sessions).
+    - The test must be ran for at least 5 hours (1 session and 1 proof period).
 - Document the PNS software and it's usage.
 #### Milestone
 (https://github.com/pokt-network/organization/blob/main/milestones/1-08-01-2021/6.0/milestone.md)[https://github.com/pokt-network/organization/blob/main/milestones/1-08-01-2021/6.0/milestone.md]  
@@ -36,43 +40,8 @@ The funcionality is to produce evidence of a Load Test run, so no further QA is 
 #### Issues  
 **List**  
   
-- Issue 1  
-- Issue 2  
-- Issue 3  
-  
-##### [ISSUE 1 TITLE]  
-**Summary**  
-  
-[DETAILED SUMMARY OF ISSUE]  
-  
-**Leader**  
-  
-[NAME:TITLE]  
-  
-**Issue Documentation**  
-  
-[LINK TO ISSUE DOCS]  
-  
-**Issue Notes**  
-  
-[Any notes on project 1]  
-  
-##### [ISSUE 2 TITLE]  
-**Summary**  
-  
-[DETAILED SUMMARY OF ISSUE]  
-  
-**Leader**  
-  
-[NAME:TITLE]  
-  
-**Issue Documentation**  
-  
-[LINK TO ISSUE DOCS]  
-  
-**Issue Notes**  
-  
-[Any notes on project 1]  
+- (https://github.com/pokt-network/pocket-core/issues/1238)[https://github.com/pokt-network/pocket-core/issues/1238]
+- (https://github.com/pokt-network/pocket-core/issues/1239)[https://github.com/pokt-network/pocket-core/issues/1239]
   
 ### Finalize  
 #### Detailed Changelog  
@@ -87,7 +56,7 @@ The funcionality is to produce evidence of a Load Test run, so no further QA is 
 #### QA Documentation  
 **QA Strategy Document**
 
-[Outlines The Original Strategy Issue Level Integration Assurance]
+This is strictly a QA project, the strategy is to produce evidence via Load Testing the Software.
 
 **QA Execution Document**
 
