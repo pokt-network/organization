@@ -1,8 +1,8 @@
-### Milestone Title: Pocket-JS Amino to ProtoBuf
+### Milestone Title: Pocket-JS Refactor
 ### Leader  
 Pabel Nunez: App Solutions Lead
 ### Date(s)  
-01/24/2021
+02/18/2021
 ### Category  
 - [ ] Infrastructure  
 - [ ] Protocol/Blockchain Dev  
@@ -14,15 +14,17 @@ Pabel Nunez: App Solutions Lead
   
 If `DOES NOT` follow the Handbook's Milestone Framework, please describe in detail why below:  
 ## Original Proposal  
-https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/pocket-js-amino-to-protobuf.md
+https://github.com/pokt-network/organization/blob/main/proposals/1-08-01-2021/pocket-js-refactor.md
 ## Detailed Summary
-The PocketJS Amino to ProtoBuf proposal is deeply related to the Pocket Core RC-0.6.0 release, sharing the same reasons to perform this changes includes:
+The PocketJS refactor is a long dream of the App Solutions team, it aims to divide the library into modules to reduce
+the package size, improve the UX, improving the versatility of the tool, code refactor and adding a Gateway Interceptor that will allow the 
+developers to get a Gateway URL without using anything else just the library.
 
 1. Improves speed
-2. Reduces resource consumption
-3. Inoperability between languages
-4. Patches the Merkle Tree security which holds a big flaw in the propotol.
-5. Contains a new mechanism that can be updgraded later.
+2. Reduces package size
+3. Modularity for better UX
+4. Code refactor
+5. Gateway Interceptor
 
 ### Milestone Goals
 - Finish the deep impact analysis.
@@ -32,13 +34,11 @@ The PocketJS Amino to ProtoBuf proposal is deeply related to the Pocket Core RC-
 - Transfer an updated Pocket JS docs to Github.
 
 ### Proposal Estimated Timeline
-Three weeks
+Six weeks
 ### How to test functionality? 
-The package will need to maintain the legacy standard (aminoJS) until the transition period is over for both testnet and production. 
-A new flag will be added to the Configuration class to determine if the transactions are going to be using the AminoJS or Protobuf library,
-the name of the flag will be "useLegacyTxSignature".
+Each package will have the proper Unit and Integration tests, they will be executed in order to assure each one of them to pass positive and negative scenarios. 
+Compatibility tests are going to done using the current applications under a test environment (Wallet, Explorer, Dashboard).
 
-The library must maintain every functionality prior to this upgrade.
 ## Rank Vote  
 https://github.com/pokt-network/organization/tree/main/rank-votes/1-08-01-2021
 ### Contract   
