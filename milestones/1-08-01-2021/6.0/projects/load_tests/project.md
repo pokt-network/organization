@@ -1,8 +1,8 @@
-### Project Title Load Testing 6.0 
+### Project Title Functional Testing  
 ### Leader  
-[Luis: CEO]  
+[Luis]  
 ### Date(s)  
-03/02/2021  
+3/02/2021  
 ### Category  
 - [ ] Infrastructure  
 - [X] Protocol/Blockchain Dev  
@@ -13,61 +13,80 @@
 - [ ] This process `DOES NOT` follow the Project Framework as discussed in the Pocket Network Corporation's `Organization Handbook`  
   
 If `DOES NOT` follow the Handbook's Project Framework, please describe in detail why below:  
+
 ### Project Purpose
-The purpose of the project is to generate evidence as to the Load capacity of the Pocket Core software, both in total nodes in the network, as well as relay capacity.
+Perform a Pocket Network simulation with the following characteristics:
+
+1. 5,000 Validator Nodes
+2. 100M Relays per day (~4166666.66 per hour)
+
+This tests ensures the reliability and scalability of the Pocket Network.
+
 ### Key Goals Of Project
-- Document evidence of the Pocket Core 0.6.0 version running in a network with the following characteristics:
-    - 5,000 Nodes in the network.
-    - Network must be processing upwards of 4,166,666 Relays per session (1 hr sessions).
-    - The test must be ran for at least 5 hours (1 session and 1 proof period).
-- Document evidence of the Pocket Core 0.6.0 version running in a network with the following characteristics:
-    - 10,000 Nodes in the network.
-    - Network must be processing upwards of 4,166,666 Relays per session (1 hr sessions).
-    - The test must be ran for at least 5 hours (1 session and 1 proof period).
-- Document the PNS software and it's usage.
+1. Define and document the target scalability goals, testing conditions and environment factors.
+2. Perform a succesful simulation of the Pocket Network, concluding with a full Claim/Proof cycle.
+3. Document the results.
+
 #### Milestone
 (https://github.com/pokt-network/organization/blob/main/milestones/1-08-01-2021/6.0/milestone.md)[https://github.com/pokt-network/organization/blob/main/milestones/1-08-01-2021/6.0/milestone.md]  
 #### Estimated Timeline  
-10 days.  
+15 days
   
 - [X] Timeline `DOES` correspond with the Milestone Estimated Timeline  
 - [ ] Timeline is `DOES NOT` correspond with the Milestone Estimated Timeline  
   
 If timeline is `DOES NOT` correspond with the Milestone Estimated Timeline, please describe in detail the reasons below:  
 [Detailed Description of Timeline Change]  
+
 #### How to test functionality?  
-The funcionality is to produce evidence of a Load Test run, so no further QA is necessary as the project itself is a QA run.
+- Results will be analyzed and evaluated.
+
 #### Issues  
 **List**  
   
-- (https://github.com/pokt-network/pocket-core/issues/1238)[https://github.com/pokt-network/pocket-core/issues/1238]
-- (https://github.com/pokt-network/pocket-core/issues/1239)[https://github.com/pokt-network/pocket-core/issues/1239]
+- (Load Test Scenario 1)[https://github.com/pokt-network/pocket-core/issues/1238]
+  
+##### [Load Test Scenario 1]  
+**Summary**  
+  
+Document evidence of the Pocket Core 0.6.0 version running in a network with the following characteristics:
+5,000 Nodes in the network.
+Network must be processing upwards of 4,166,666 Relays per session (1 hr sessions).
+The test must be ran for at least 5 hours (1 session and 1 proof period).
+  
+**Leader**  
+  
+[Luis]  
+  
+**Issue Notes**  
+  
+N/A
   
 ### Finalize  
 #### Detailed Changelog  
-[LINK TO CHANGELOG TEMPLATE]  
+Changelog not changed by this project.  
   
 #### Contributors List  
-- Emanuel
+- Luis
   
 #### Auxillary Documentation   
-[Links if applicable]  
+N/A 
   
 #### QA Documentation  
 **QA Strategy Document**
 
-This is strictly a QA project, the strategy is to produce evidence via Load Testing the Software.
+N/A
 
 **QA Execution Document**
 
-[Outlines Issue Level Integration Assurance]
+N/A
 
-- [X] The QA execution `DOES` follow the original QA Strategy document
-- [ ] The QA execution `DOES NOT` follow the original QA Strategy document
+- [] The QA execution `DOES` follow the original QA Strategy document
+- [X] The QA execution `DOES NOT` follow the original QA Strategy document
 
 If QA execution `DOES NOT` follow the original QA Strategy document, please explain why in fine detail:
 
-[Explain the QA change in fine detail]
+Once the Load Test is performed, the evidence will be recorded as proof of the QA executed.
 
 **QA Contract**
 
@@ -75,16 +94,16 @@ If QA execution `DOES NOT` follow the original QA Strategy document, please expl
 
 **Justification Statement**
 
-[Provide a detailed statement of satisfaction of the QA Organization Level QA requirements]
+N/A
   
 #### Delivery Date  
-13/02/2021
+21/02/2021
 ### General Notes    
-[Any notes]  
+N/A
 ### Editorial Notes  
-[Opinion piece]  
+N/A
 ### External Links
-[If Applicable]
+N/A
 
 ### Lead Signoff
 
