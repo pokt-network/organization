@@ -1,170 +1,150 @@
-### QA Documentation For [TITLE OF THE TASK/ISSUE/PROJECT/MILESTONE]  
+### QA Documentation For RC-0.6.0 Milestone
 ### Leader  
-[NAME: TITLE]  
+[Emanuel Medrano: Support Engineering Lead]  
 ### Date(s)  
-01/01/1970  
+03/30/2021  
 ### Participants
-- [NAME:TITLE]
-- [NAME:TITLE]
-- [NAME:TITLE]
+- [Emanuel Medrano:Support Engineering Lead]
 ## Survey
 ### Category
 - [ ] Infrastructure  
 - [ ] Protocol/Blockchain Dev  
 - [ ] App Solutions  
+- [X] QA/Support Engineering
 
 ### Implementation (Check All That Apply)
 - [ ] Unit Tests
-- [ ] Integration Tests
-- [ ] Functional Tests
-- [ ] Behavior Tests
-- [ ] Load Tests
+- [X] Integration Tests
+- [X] Functional Tests
+- [X] Behavior Tests
+- [X] Load Tests
 - [ ] Stress Tests
 - [ ] Simulations
 - [ ] Certification
 - [ ] Benchmarks
 - [ ] Performance Tests
 - [ ] Resource Monitoring
-- [ ] [ADD OTHERS]
+- [X] Negative Tests
 
 ## QA
 ### Summary
 
 **How is this deliverable Quality Assured?**
 
-[Detailed account of the QA Process]
+- Execution of the refactored functional tests: 1 single node setup
+- Execution of the legacyCodec feature testing: 1 single node setup
+- Execution of the behavioural tests added for specific changes: 1 single node setup
+- Re-test of the legacyCodec feature testing when changing the upgradeHeight to be dynamic: 1 single node setup
+- Execution of the refactored functional tests: 5 single node setup
+- Execution of the legacyCodec feature testing: 5 single node setup
+- Execution of the behavioural tests added for specific changes: 5 single node setup
+- Re-test of the legacyCodec feature testing when changing the upgradeHeight to be dynamic: 5 single node setup
+- Bugs found and reported, retesting.
+- All product criteria are met and confirmed.
 
 **What was the original strategy?**
 
-[Link to the QA Strategy document]
+The Testing Strategy selected was:
+- Refactoring of the existing Pocket Core func-tests.
+- Re-running of refactored Pocket Core func-tests.
+- Design of Pocket Core new func-tests for most recent and most impactfull features.
+- Execution of Pocket Core new func-tests for most recent and most impactfull features on a single node network configuration.
+- Execution of Pocket Core new func-tests for most recent and most impactfull features on a 5 nodes network configuration.
+- Bugs Reporting and follow up.
+- Bugs fixed re-testing.
+- Legacy Codec related tests re-run for latest changes.
 
 **Did the QA methodology follow the original strategy?**
-- [ ] `YES`
+- [X] `YES`
 - [ ] `NO`
-
-If the QA methodology diverged from the original QA strategy, please explain in detail why:
-
-[Provied Detailed explanation]
 
 **QA Contract**
 
-- [ ] The QA for this deliverable ensures delivery of the project purpose
+- [X] The QA for this deliverable ensures delivery of the project purpose
 
 **Justification Statement**
 
-[Provide a detailed statement of satisfaction of the QA Organization Level QA requirements]
+It was considered the most complete strategy for the short time given and the urgency of the milestone, meaning the priorization was needed to make the milestone be submitted on time for the whole organization.
+
+Most important, this milestone involved consensus breaking changes that needed throughout tests of the software, to make sure that existing functionality was not affected negatively and newly added functionality was covered as well.
+
+Plus, negative and behavior tests included as integration tests, so that the tests got related to real scenarios.
 
 ### Alternatives Considered
 **Alternative Approach 1**
 
-[Description of Alternative Approach 1]
+Functional and acceptance Testing on both: 1 single node and 5 nodes networks.
 
 **Pros**
-- X
-- Y
-- Z
+- Tests of all the expected behaviour by design.
+- Validated all happy paths within the product.
+- Focuses on details and requirements.
 
 **Cons**
-- A
-- B
-- C
-
-Explain in detail why the chosen option superior to this alternative:
-
-[Detailed description of why the chosen option is the better QA strategy over this alternative]
+- Doesn't evaluate exceptions.
+- Ignores non desired functionality.
 
 **Alternative Approach 2**
 
-[Description of Alternative Approach 2]
+Negative and Non-functional Testing on both: 1 single node and 5 nodes networks.
 
 **Pros**
-- X
-- Y
-- Z
+- Evaluate exceptions.
+- Evaluate error messages.
+- Evaluate proper error validations.
+- Expose possible software vulnerabilities.
 
 **Cons**
-- A
-- B
-- C
+- Not likable by the user.
 
-Explain in detail why the chosen option superior to this alternative:
-
-[Detailed description of why the chosen option is the better QA strategy over this alternative]
 ### Tools Required
 **Tool 1**
 
-[Official Name of the tool]
+PRLTS
 
 **Link**
 
-[External link to the tool]
+https://github.com/pokt-network/prlts
 
 **Planned Usage**
 
-[Describe how this tool is used in the QA strategy]
+Send network relays to the node(s)
 
 **Tool 1**
 
-[Official Name of the tool]
+Pocket Core RPCs
 
 **Link**
 
-[External link to the tool]
+https://github.com/pokt-network/pocket-core/blob/staging/doc/rpc-spec.yaml
 
 **Planned Usage**
 
-[Describe how this tool is used in the QA strategy]
+Functional and non-functional tests of the same.
 
-### Research And Investigation
-**Subject 1**
+**Alternative Approach 3**
 
-[Title of Research Or Investigation Subject]
+Load Testing within the following characteristics:
+5,000 Validator Nodes
+4,166,666 Relays per session (1 hr sessions).
+~15 minute blocks
 
-**Steps Taken**
+**Pros**
+- Tests of all the expected behaviour by design.
+- Stress the software to specific network configurations to make healthy conclussions on the same, by exploring its boundaries. 
 
-[Steps Taken on to investigate this topic]
-
-**Consultants**
-
-- [NAME:TITLE]
-- [NAME:TITLE]
-
-**Detailed Summary**
-
-[Summary of research]
-
-**Conclusion**
-
-[Conclusion drawn from investigative research]
-
-**External Links**
-
-[If Applicable]
-
-**Subject 2**
-
-[Title of Research Or Investigation Subject]
-
-**Steps Taken**
-
-[Steps Taken on to investigate this topic]
-
-**Consultants**
-
-- [NAME:TITLE]
-- [NAME:TITLE]
-
-**Detailed Summary**
-
-[Summary of research]
-
-**Conclusion**
-
-[Conclusion drawn from investigative research]
-
-**External Links**
-
-[If Applicable]
+**Cons**
+- The peering capabilities is done via Seed Nodes, as using persistent peering proved problematic for consensus in the earlier blocks.
+- There are hardware limitations in the number and size of instances that GCP can provision in a single run.
+- Disk space limited the generation of PRLTS evidence.
 
 ### General Notes  
-[Any notes]  
+There were minor details found, that for the purpose of this release and it's aggressive timeline, would be fixed/solved on further releases.
+
+Several observations were made during the load test:
+
+Memory climbs when processing claims and proof as observed in the Memory RSS Graph image.
+The test processed ~4.133 M relays according to aggregated PRLTS data.
+Claims were succesfully submitted and finalized into the state.
+Proofs were submitted, however hardware limitations knocked more than 33% of the validator power offline, causing a chain halt.
+Test Result: Inconclusive due to hardware limitations of the environment.
