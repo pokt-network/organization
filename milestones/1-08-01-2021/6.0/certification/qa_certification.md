@@ -1,4 +1,4 @@
-### Certification Documentation For QA Certification of RC-0.6.0 Milestone
+### Certification Documentation For RC-0.6.0 Milestone
 ### Leader  
 [Emanuel Medrano: Support Engineering Lead/Specialist]  
 ### Date(s)  
