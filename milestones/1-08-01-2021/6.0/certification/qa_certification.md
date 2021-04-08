@@ -94,5 +94,29 @@ https://github.com/pokt-network/pocket-core/blob/staging/doc/rpc-spec.yaml
 
 Functional and non-functional tests of the same.
 
+**Alternative Approach 3**
+
+Load Testing within the following characteristics:
+5,000 Validator Nodes
+4,166,666 Relays per session (1 hr sessions).
+~15 minute blocks
+
+**Pros**
+- Tests of all the expected behaviour by design.
+- Stress the software to specific network configurations to make healthy conclussions on the same, by exploring its boundaries. 
+
+**Cons**
+- The peering capabilities is done via Seed Nodes, as using persistent peering proved problematic for consensus in the earlier blocks.
+- There are hardware limitations in the number and size of instances that GCP can provision in a single run.
+- Disk space limited the generation of PRLTS evidence.
+
 ### General Notes  
 There were minor details found, that for the purpose of this release and it's aggressive timeline, would be fixed/solved on further releases.
+
+Several observations were made during the load test:
+
+Memory climbs when processing claims and proof as observed in the Memory RSS Graph image.
+The test processed ~4.133 M relays according to aggregated PRLTS data.
+Claims were succesfully submitted and finalized into the state.
+Proofs were submitted, however hardware limitations knocked more than 33% of the validator power offline, causing a chain halt.
+Test Result: Inconclusive due to hardware limitations of the environment.
