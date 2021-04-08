@@ -1,23 +1,23 @@
-### QA Strategy For [TITLE OF THE TASK/ISSUE/PROJECT/MILESTONE]  
+### QA Strategy For RC-0.6.0 Milestone 
 ### Leader  
-[NAME: TITLE]  
+[Emanuel Medrano: Support Engineering Lead]  
 ### Date(s)  
-01/01/1970  
+03/30/2021  
 ### Participants
-- [NAME:TITLE]
-- [NAME:TITLE]
-- [NAME:TITLE]
+- [Emanuel Medrano:Support Engineering Lead]
+
 ## Survey
 ### Category
 - [ ] Infrastructure  
 - [ ] Protocol/Blockchain Dev  
 - [ ] App Solutions  
+- [X] QA/Support Engineering
 
 ### Implementation (Check All That Apply)
 - [ ] Unit Tests
-- [ ] Integration Tests
-- [ ] Functional Tests
-- [ ] Behavior Tests
+- [X] Integration Tests
+- [X] Functional Tests
+- [X] Behavior Tests
 - [ ] Load Tests
 - [ ] Stress Tests
 - [ ] Simulations
@@ -25,146 +25,93 @@
 - [ ] Benchmarks
 - [ ] Performance Tests
 - [ ] Resource Monitoring
-- [ ] [ADD OTHERS]
+- [X] Negative Tests
 
 ## QA Strategy
 ### Summary
 
 **What is the strategy?**
 
-[Describe in detail the QA Strategy]
-
+The Testing Strategy selected was:
+- Refactoring of the existing Pocket Core func-tests.
+- Re-running of refactored Pocket Core func-tests.
+- Design of Pocket Core new func-tests for most recent and most impactfull features.
+- Execution of Pocket Core new func-tests for most recent and most impactfull features on a single node network configuration.
+- Execution of Pocket Core new func-tests for most recent and most impactfull features on a 5 nodes network configuration.
+- Bugs Reporting and follow up.
+- Bugs fixed re-testing.
+- Legacy Codec related tests re-run for latest changes.
 **Why this strategy?**
 
-[Describe in detail why this strategy was chosen]
+Because it was considered the most complete strategy for the short time given and the urgency of the milestone, meaning the priorization was needed to make the milestone be submitted on time for the whole organization.
+
+Most important, this milestone involved consensus breaking changes that needed throughout tests of the software, to make sure that existing functionality was not affected negatively and newly added functionality was covered as well.
+
+Plus, negative and behavior tests included as integration tests, so that the tests got related to real scenarios.
 
 **QA Contract**
 
-- [ ] The QA strategy `WILL` ensure delivery of the intended purpose
+- [X] The QA strategy `WILL` ensure delivery of the intended purpose
 
 **Justification Statement**
 
-[Provide a detailed statement of satisfaction of the QA Organization Level QA requirements]
+It was considered the most complete strategy for the short time given and the urgency of the milestone, meaning the priorization was needed to make the milestone be submitted on time for the whole organization.
+
+Most important, this milestone involved consensus breaking changes that needed throughout tests of the software, to make sure that existing functionality was not affected negatively and newly added functionality was covered as well.
+
+Plus, negative and behavior tests included as integration tests, so that the tests got related to real scenarios.
 
 ### Alternatives Considered
 **Alternative Approach 1**
 
-[Description of Alternative Approach 1]
+Functional and acceptance Testing on both: 1 single node and 5 nodes networks.
 
 **Pros**
-- X
-- Y
-- Z
+- Tests of all the expected behaviour by design.
+- Validated all happy paths within the product.
+- Focuses on details and requirements.
 
 **Cons**
-- A
-- B
-- C
-
-Explain in detail why the chosen option superior to this alternative:
-
-[Detailed description of why the chosen option is the better QA strategy over this alternative]
+- Doesn't evaluate exceptions.
+- Ignores non desired functionality.
 
 **Alternative Approach 2**
 
-[Description of Alternative Approach 2]
+Negative and Non-functional Testing on both: 1 single node and 5 nodes networks.
 
 **Pros**
-- X
-- Y
-- Z
+- Evaluate exceptions.
+- Evaluate error messages.
+- Evaluate proper error validations.
+- Expose possible software vulnerabilities.
 
 **Cons**
-- A
-- B
-- C
-
-Explain in detail why the chosen option superior to this alternative:
-
-[Detailed description of why the chosen option is the better QA strategy over this alternative]
-### Participant Quorum
-- [ ] `UNANIMOUS`
-- [ ] `SPLIT`
-
-If decision was `SPLIT`, please provide those who were for and against the strategy:
-- Participant 1: FOR
-- Participant 2: AGAINST
+- Not likable by the user.
 
 ### Tools Required
 **Tool 1**
 
-[Official Name of the tool]
+PRLTS
 
 **Link**
 
-[External link to the tool]
+https://github.com/pokt-network/prlts
 
 **Planned Usage**
 
-[Describe how this tool is used in the QA strategy]
+Send network relays to the node(s)
 
 **Tool 1**
 
-[Official Name of the tool]
+Pocket Core RPCs
 
 **Link**
 
-[External link to the tool]
+https://github.com/pokt-network/pocket-core/blob/staging/doc/rpc-spec.yaml
 
 **Planned Usage**
 
-[Describe how this tool is used in the QA strategy]
-
-### Research And Investigation
-**Subject 1**
-
-[Title of Research Or Investigation Subject]
-
-**Steps Taken**
-
-[Steps Taken on to investigate this topic]
-
-**Consultants**
-
-- [NAME:TITLE]
-- [NAME:TITLE]
-
-**Detailed Summary**
-
-[Summary of research]
-
-**Conclusion**
-
-[Conclusion drawn from investigative research]
-
-**External Links**
-
-[If Applicable]
-
-**Subject 2**
-
-[Title of Research Or Investigation Subject]
-
-**Steps Taken**
-
-[Steps Taken on to investigate this topic]
-
-**Consultants**
-
-- [NAME:TITLE]
-- [NAME:TITLE]
-
-**Detailed Summary**
-
-[Summary of research]
-
-**Conclusion**
-
-[Conclusion drawn from investigative research]
-
-**External Links**
-
-[If Applicable]
+Functional and non-functional tests of the same.
 
 ### General Notes  
-[Any notes]  
+There were minor details found, that for the purpose of this release and it's aggressive timeline, would be fixed/solved on further releases.
