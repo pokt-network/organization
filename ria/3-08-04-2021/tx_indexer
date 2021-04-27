@@ -1,0 +1,59 @@
+### Report Of Immediate Action Title 
+Custom Transaction Indexer
+### Engineer (One Per Engineer)
+Andrew: CTO
+### Date(s)
+02/01/2021
+### Category
+- [ ] Infrastructure
+- [X] Protocol/Blockchain Dev
+- [ ] App Solutions
+- [ ] Quality Assurance
+### Contract
+- [X] This process follows the Immediate Action Framework as discussed in the Pocket Network Corporation's `Organization Handbook`
+- [ ] This process `DOES NOT` follow the Immediate Action Framework as discussed in the Pocket Network Corporation's `Organization Handbook`
+
+If `DOES NOT` follow the Handbook's Immediate Action Framework, please describe in detail why below:
+
+## Report of Immediate Action
+### Detailed Summary of executed Immediate Action
+Tendermint's default TxIndexer paginates
+and sorts transactions during time of query, resulting in a large consumption of resources. Tendermint's default TxIndexer
+also relies on events to index transactions, and due to a bug in RC-0.5.X pocket core module events are all concatenated
+together. This makes indexing a nightmare.
+### Evidence and Justification of the need for the Immediate Action:**
+Multiple Community members who are trying to build good tooling on top of Pocket (Overlord, Kytrie, AndrewNguyen22) all rely on 
+a consistent indexing of transactions and have made formal complaints / issues on the matter.
+### Timeline of the Immediate Action
+[3 Days]
+### Tasks Deferred by Immediate Action
+
+**Title**
+
+7.0 Specification
+
+**How was [Task 1] affected by the Immediate Action?**
+
+Delayed 3 Days
+
+**Affected Parties**
+
+- [Eduardo D: Blockchain Specialist]
+- [Otto V: Blockchain Specialist]
+- [Luis D. L: CEO]
+- [Julio: Infra Specialist]
+
+**Contract**
+
+- [X] I `DID` communicate the Immediate Action to all of the above affected parties before, during, and after the Immediate Action lifecycle
+- [ ] I `DID NOT` communicate the Immediate Action to all of the above affected parties before, during, and after the Immediate Action lifecycle
+
+### Survey
+- [ ] Steps `CAN/WILL` be taken to avoid this Immediate Action in the future. Explain in detail below:
+
+[Detailed Explanation]
+
+- [X] Steps `CANNOT/WILL NOT` be taken to avoid this Immediate Action in the future. Explain in detail below:
+
+The pitfalls of using Tendermint's default indexer couldn't have been avoided unless we avoided Tendermint all together.
+### External Links
