@@ -69,6 +69,8 @@ Why?:
 ### Logs (If Applicable)
 
 [Logs created during the certification]
+`std out Error logs` (if applicable) to demonstrate any found issues 
+`std out Info logs` highlighting that feature X is working properly
 
 ### General Notes  
 [Any notes]  
