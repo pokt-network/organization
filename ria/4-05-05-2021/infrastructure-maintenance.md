@@ -31,10 +31,11 @@ Restored geth-ropsten which was datacorrupted
 
 Decomissioned XDAI blockchain and repaired automatic pocket-core blockchain exporter
 
-https://github.com/pokt-network/pocket-core-internal-deployments/pull/398
-
 ### Evidence and Justification of the need for the Immediate Action:**
-Reduce/adjust annoying alarms and fix critical blockchain issues 
+Reduce/adjust annoying alarms and fix critical blockchain issues
+
+https://github.com/pokt-network/pocket-core-internal-deployments/pull/407 
+
 
 ### Timeline of the Immediate Action
 Apr 5th 2021 - Apr 7th 2021
