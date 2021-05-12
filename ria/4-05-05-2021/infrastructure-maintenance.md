@@ -5,7 +5,7 @@ Infrastructure maintenance
 Lowell Abbott: Infra Lead
 
 ### Date(s)
-04/6/2021
+5/5/2021
 
 ### Category
 - [X] Infrastructure
@@ -25,20 +25,29 @@ If `DOES NOT` follow the Handbook's Immediate Action Framework, please describe 
 
 Cleaned and adjusted essential alarms related to our infrastructure
 
-Expanded geth-rinkeby, geth-archival, geth-goerli volumes which almost were running out of space
+Expanded geth blockchain volumes which almost were running out of space
 
-Restored geth-ropsten which was datacorrupted
+Restored geth-ropsten which has datacorruption 
 
-Decomissioned XDAI blockchain and repaired automatic pocket-core blockchain exporter
+Decomissioned XDAI blockchain
+
+Repaired automatic pocket-core blockchain exporter
+
+Expanded pocket-core volume spaces which were datacorrupted due to volume space
 
 ### Evidence and Justification of the need for the Immediate Action:**
 Reduce/adjust annoying alarms and fix critical blockchain issues
 
-https://github.com/pokt-network/pocket-core-internal-deployments/pull/407 
+Blockchain update 
 
+Expanded volume on pocket core and blockchain nodes 
+https://github.com/pokt-network/pocket-core-internal-deployments/pull/407
+
+Automatic pocket-core blockchain exporter
+https://github.com/pokt-network/pocket-core-internal-deployments/pull/408
 
 ### Timeline of the Immediate Action
-Apr 5th 2021 - Apr 7th 2021
+May 5th 2021 - May 10th 2021
 
 ### Tasks Deferred by Immediate Action
 
